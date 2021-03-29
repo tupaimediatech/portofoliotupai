@@ -1,0 +1,74 @@
+.contactus{
+    padding-top: 55px;
+    padding-bottom: 155px;
+    background-color: map-get($map: $colors, $key: 'two');
+    color: map-get($map: $colors, $key: 'seven');
+
+    .company{
+        .company-img{
+            width: 121px;
+        }
+        .company-title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 72px;
+        }
+        .company-info{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+
+    .links{
+        .title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .nav{
+            .nav-item{
+                list-style: none;
+                list-style-type: none;
+                .nav-link{
+                    color: map-get($map: $colors, $key: 'seven');
+                }
+                
+                &:hover{
+                    .nav-link{
+                        color: map-get($map: $colors, $key: 'three');
+                    }
+                }
+            }
+        }
+    }
+
+    .social{
+        .title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .nav{
+            .nav-item{
+                list-style: none;
+                list-style-type: none;
+
+                font-size: 30px;
+                .nav-link{
+                    color: map-get($map: $colors, $key: 'seven');
+                }
+                
+                &:hover{
+                    .nav-link{
+                        color: map-get($map: $colors, $key: 'three');
+                    }
+                }
+            }
+        }
+    }
+}
