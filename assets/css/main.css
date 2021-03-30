@@ -97,7 +97,8 @@ body {
   padding-right: 52px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #452D3B;
+  background: -webkit-gradient(linear, right top, left top, from(#F4682B), to(#FFB661));
+  background: linear-gradient(270deg, #F4682B 0%, #FFB661 100%);
   -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
@@ -202,26 +203,26 @@ body {
 
 .contactus {
   padding-top: 55px;
-  padding-bottom: 155px;
+  padding-bottom: 50px;
   background-color: #452D3B;
   color: #FFFFFF;
 }
 
 .contactus .company .company-img {
-  width: 121px;
+  width: 75px;
 }
 
 .contactus .company .company-title {
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 72px;
 }
 
 .contactus .company .company-info {
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
 }
 
@@ -323,8 +324,9 @@ body {
 }
 
 .services .nav .nav-link.active {
-  background-color: transparent;
-  color: #F4682B;
+  background-image: -webkit-gradient(linear, right top, left top, from(#F4682B), to(#FFFFFF));
+  background-image: linear-gradient(270deg, #F4682B 0%, #FFFFFF 100%);
+  color: #000000;
 }
 
 .services .tab-content .tab-pane .title-tab {

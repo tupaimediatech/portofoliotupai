@@ -23,8 +23,8 @@
             line-height: 36px;
 
             &.active{
-                background-color: transparent;
-                color: map-get($map: $colors, $key: 'three');
+                background-image: linear-gradient(270deg, map-get($map: $colors, $key: 'three') 0%, map-get($map: $colors, $key: 'seven') 100%);
+                color: #000000
                 // border-bottom: 3px solid map-get($map: $colors, $key: 'three');
             }
         }

@@ -1,23 +1,23 @@
 .contactus{
     padding-top: 55px;
-    padding-bottom: 155px;
+    padding-bottom: 50px;
     background-color: map-get($map: $colors, $key: 'two');
     color: map-get($map: $colors, $key: 'seven');
 
     .company{
         .company-img{
-            width: 121px;
+            width: 75px;
         }
         .company-title{
             font-style: normal;
             font-weight: 600;
-            font-size: 48px;
+            font-size: 36px;
             line-height: 72px;
         }
         .company-info{
             font-style: normal;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 15px;
             line-height: 27px;
         }
     }
