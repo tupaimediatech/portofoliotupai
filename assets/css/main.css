@@ -66,9 +66,10 @@ body {
 }
 
 .jumbotron {
-  background-image: url(../img/bg-hero.png);
+  background-image: url(../img/herobg.png);
   background-color: #FFFFFF;
   background-repeat: no-repeat;
+  background-size: 100% 80%;
   min-height: 505px;
   padding-bottom: 100px;
 }
@@ -103,6 +104,10 @@ body {
           box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   color: #FFFFFF;
+}
+
+.jumbotron .button .tp-btn:hover {
+  background: #FFB661;
 }
 
 .aboutus {
@@ -145,10 +150,6 @@ body {
 .ouroffer {
   margin-top: -5px;
   padding-bottom: 100px;
-  background-image: url(../img/bg-hero3.png);
-  background-position: top;
-  background-color: #FFFFFF;
-  background-repeat: no-repeat;
   padding-top: 134px;
 }
 
@@ -180,6 +181,10 @@ body {
 }
 
 .ouroffer .content-box .content {
+  -webkit-box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-top: 35px;
   margin-bottom: 35px;
 }
 
@@ -321,6 +326,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
+  border-radius: 0px;
 }
 
 .services .nav .nav-link.active {
