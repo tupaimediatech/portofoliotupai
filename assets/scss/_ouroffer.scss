@@ -37,7 +37,6 @@
 
     .content-box{
         .content{
-            box-shadow: $shadow24;
             border-radius: 20px;
             padding-top: 35px;
             margin-bottom: 35px;
@@ -55,6 +54,10 @@
                 font-weight: 600;
                 font-size: 18px;
                 line-height: 27px;
+            }
+
+            &:hover{
+                box-shadow: $shadow24;
             }
         }
     }
