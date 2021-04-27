@@ -18,6 +18,8 @@
     font-size: 18px; 
 
     &:hover{
+        border: 1px solid;
+        border-color: map-get($map: $colors, $key: 'three');
         background-color: map-get($map: $colors, $key: 'seven');
         color: map-get($map: $colors, $key: 'three');
     }

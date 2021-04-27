@@ -29,7 +29,7 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar fixed-top  navbar-expand-lg navbar-light">
+  <nav class="navbar header fixed-top  navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="assets/img/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -48,13 +48,13 @@
             <a class="nav-link" href="about-us.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">IT Services</a>
+            <a class="nav-link scroll-to" href="#services">IT Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link scroll-to" href="#contactus">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -110,23 +110,23 @@
     <!-- end aboutus -->
 
     <!-- services -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h1 class="title text-center">Our Services</h1>
         <div class="row flex-row-reverse">
           <div class="col-lg-5 text-right">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-itconsultancy-tab" data-toggle="pill" href="#v-pills-itconsultancy"
+              <a class="nav-link nav-services-home ns-1 active" id="v-pills-itconsultancy-tab" data-toggle="pill" href="#v-pills-itconsultancy"
                 role="tab" aria-controls="v-pills-itconsultancy" aria-selected="true">IT Consultancy</a>
-              <a class="nav-link" id="v-pills-websitedevelopment-tab" data-toggle="pill"
+              <a class="nav-link nav-services-home ns-2" id="v-pills-websitedevelopment-tab" data-toggle="pill"
                 href="#v-pills-websitedevelopment" role="tab" aria-controls="v-pills-websitedevelopment"
                 aria-selected="false">Website Development</a>
-              <a class="nav-link" id="v-pills-mobiledevelopment-tab" data-toggle="pill"
+              <a class="nav-link nav-services-home ns-3" id="v-pills-mobiledevelopment-tab" data-toggle="pill"
                 href="#v-pills-mobiledevelopment" role="tab" aria-controls="v-pills-mobiledevelopment"
                 aria-selected="false">Mobile Development</a>
-              <a class="nav-link" id="v-pills-uiuxdesign-tab" data-toggle="pill" href="#v-pills-uiuxdesign" role="tab"
+              <a class="nav-link nav-services-home ns-4" id="v-pills-uiuxdesign-tab" data-toggle="pill" href="#v-pills-uiuxdesign" role="tab"
                 aria-controls="v-pills-uiuxdesign" aria-selected="false">UI/UX Design</a>
-              <a class="nav-link" id="v-pills-networksecurityservice-tab" data-toggle="pill"
+              <a class="nav-link nav-services-home ns-5" id="v-pills-networksecurityservice-tab" data-toggle="pill"
                 href="#v-pills-networksecurityservice" role="tab" aria-controls="v-pills-networksecurityservice"
                 aria-selected="false">Network Security & Service</a>
             </div>
@@ -239,7 +239,7 @@
     <!-- end ouroffer -->
 
     <!-- contactus -->
-    <section class="contactus">
+    <section class="contactus" id="contactus">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 company">
