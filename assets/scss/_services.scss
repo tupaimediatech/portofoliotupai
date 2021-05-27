@@ -1,10 +1,9 @@
 .services{
     margin-bottom: -5px;
     padding-bottom: 100px;
-    // background-image: url(../img/bg-hero2.png);
-    // background-position: bottom;
-    // background-color: map-get($map: $colors, $key: 'seven');
-    // background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 100%), url(../img/services.png);
+    background-position: center, right;
+    background-repeat: no-repeat ,no-repeat;
 
     .title{
         font-style: normal;
@@ -25,7 +24,7 @@
 
             &.active{
                 background-image: linear-gradient(270deg, map-get($map: $colors, $key: 'three') 0%, map-get($map: $colors, $key: 'seven') 100%);
-                color: #000000
+                color: #ffffff
                 // border-bottom: 3px solid map-get($map: $colors, $key: 'three');
             }
         }
