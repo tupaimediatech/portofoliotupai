@@ -1,0 +1,148 @@
+.detail-services {
+	background-position: top;
+	margin-bottom: 55px;
+
+	.header-section {
+		background-image: linear-gradient(
+			to bottom,
+			map-get($colors, "eight"),
+			map-get($colors, "seven")
+		);
+
+		padding-top: 55px;
+
+		.section-title {
+			font-size: 36px;
+			font-weight: 600;
+			line-height: 54px;
+			text-align: center;
+
+			&::after {
+				content: "";
+				display: block;
+				border-bottom: 5px solid;
+				border-image-slice: 1;
+				border-image-source: linear-gradient(
+					to left,
+					map-get($colors, "three"),
+					map-get($colors, "six")
+				);
+				width: 20%;
+				margin: 10px auto 15px auto;
+				opacity: 0;
+			}
+
+			&:hover::after {
+				opacity: 1;
+				transition: 0.4s ease-in-out;
+			}
+		}
+	}
+
+	.section-info {
+		font-size: 18px;
+		line-height: 27px;
+		p {
+			font-weight: 400;
+		}
+
+		span {
+			font-weight: 600;
+		}
+	}
+
+	.nav-option {
+		.nav {
+			padding-top: 18px;
+			padding-right: 18px;
+			padding-left: 18px;
+
+			.nav-link {
+				color: rgba(0, 0, 0, 0.75);
+				margin-bottom: 10px;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				border-radius: 0px;
+
+				&.active {
+					color: white;
+					border: none;
+
+					background-image: linear-gradient(90deg, #f4682b 0%, #ffda2d 100%);
+				}
+			}
+		}
+	}
+
+	.question {
+		margin-top: 35px;
+
+		background-image: linear-gradient(
+				180deg,
+				rgba(69, 45, 59, 0.75) 0%,
+				rgba(69, 45, 59, 0.75) 100%
+			),
+			url(../img/bg-telemarketer.png);
+		background-size: 100% 100%, auto auto;
+		background-repeat: no-repeat, no-repeat;
+		padding: 25px 42px 25px 42px;
+
+		text-align: center;
+
+		color: white;
+
+		.question-title {
+			margin-top: 20px;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 27px;
+		}
+
+		.question-info {
+			margin-top: 20px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 27px;
+		}
+
+		.contact {
+			margin-top: 20px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 27px;
+
+			a {
+				color: white;
+			}
+		}
+	}
+
+	.content {
+		.content-text {
+			margin-top: 35px;
+
+			.content-text-title {
+				font-style: normal;
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 36px;
+
+				margin-bottom: 10px;
+			}
+
+			.content-text-info {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 27px;
+
+				img {
+					margin-top: 38px;
+					margin-bottom: 38px;
+				}
+			}
+		}
+	}
+}

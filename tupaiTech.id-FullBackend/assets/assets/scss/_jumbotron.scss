@@ -1,0 +1,54 @@
+.jumbotron {
+	background-image: url(../img/hero-bg-7.png);
+	background-color: map-get($map: $colors, $key: "seven");
+	background-repeat: no-repeat;
+	background-size: 100% 80%;
+
+	min-height: 505px;
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	.title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 75px;
+
+		margin-bottom: 35px;
+	}
+
+	.info {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.button {
+		.tp-btn {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 27px;
+
+			padding-left: 52px;
+			padding-right: 52px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background: linear-gradient(
+				270deg,
+				map-get($map: $colors, $key: "three") 0%,
+				map-get($map: $colors, $key: "six") 100%
+			);
+			box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+			border-radius: 30px;
+
+			color: #ffffff;
+
+			&:hover {
+				background: map-get($map: $colors, $key: "six");
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.footer{
+    background-color: map-get($map: $colors, $key: 'two');
+    color: map-get($map: $colors, $key: 'seven');
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 11px;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-content{
+    margin-top: 61px;
+}
+
+
+
+@import 'variable';
+@import 'navbar';
+@import 'jumbotron';
+@import 'aboutus';
+@import 'ouroffer';
+@import 'contactus';
+@import 'footer';
+@import 'scrolltop';
+@import 'services';
+@import 'about-us';
+@import 'detail-services';
+@import 'project';
