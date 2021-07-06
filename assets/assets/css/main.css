@@ -79,8 +79,6 @@ body {
   background-size: 100% 80%;
   min-height: 505px;
   padding-top: 100px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
 }
 
 .jumbotron .title {
@@ -950,32 +948,21 @@ textarea {
   margin-bottom: 30px;
 }
 
-.projects-content .projects .box .tampilkan {
-  position: relative;
-}
-
-.projects-content .projects .box .tampilkan img {
+.projects-content .projects .box img {
   max-width: 100%;
 }
 
-.projects-content .projects .box .tampilkan .info {
+.projects-content .projects .box .info {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 20;
+  width: 91%;
   z-index: 2;
   background-color: #452d3b;
   color: #ffffff;
   opacity: 0;
   text-align: left;
   padding: 15px 22px;
-}
-
-.projects-content .projects .box .tampilkan .info .project-title {
-  font-size: 18px;
-}
-
-.projects-content .projects .box .tampilkan .info .project-client {
-  font-size: 14px;
 }
 
 .projects-content .projects .box:hover img {

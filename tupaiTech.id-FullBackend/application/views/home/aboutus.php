@@ -11,7 +11,7 @@
     <section class="about-us-content">
         <div class="container">
             <!-- <h1 class="title" data-aos="fade-up" data-aos-duration="500">About Us</h1> -->
-            <div class="top-content" data-aos="zoom-out-up" data-aos-duration="500">
+            <div class="top-content" data-aos="fade-up" data-aos-duration="500">
                 <p><Span>Tupai Tech</Span> Tupai Tech Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
                     ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit
                     amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
@@ -20,7 +20,7 @@
             </div>
             <div class="offers">
                 <div class="row">
-                    <div class="first-column" data-aos="zoom-out-right">
+                    <div class="first-column" data-aos="fade-down">
                         <div class="offer-item">
                             <img src="<?= base_url('assets/') ?>assets/img/circle-checkbox.svg" alt="">
                             <p>Quick to respond</p>
@@ -34,7 +34,7 @@
                             <p>24/7 Hours support</p>
                         </div>
                     </div>
-                    <div class="seccond-column" data-aos="zoom-out-left">
+                    <div class="seccond-column" data-aos="fade-up">
                         <div class="offer-item">
                             <img src="<?= base_url('assets/') ?>assets/img/circle-checkbox.svg" alt="">
                             <p>Professional</p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="image" data-aos="flip-up">
+            <div class="image" data-aos="fade-up">
                 <img src="<?= base_url('assets/') ?>assets/img/aboutus.png" alt="" class="img-fluid">
             </div>
             <div class="bottom-content" data-aos="slide-up">
@@ -71,11 +71,11 @@
     <!-- Team section -->
     <section class="team-section">
         <div class="container">
-            <h1 class="title" data-aos="zoom-in-up">Leadership Team</h1>
+            <h1 class="title" data-aos="fade-up">Leadership Team</h1>
             <div class="employes">
                 <div class="row">
                     <?php foreach ($teams as $team) : ?>
-                        <div class="items col-12 col-md-5 col-lg-4 col-xl-3" data-aos="zoom-out-up">
+                        <div class="items col-12 col-md-5 col-lg-4 col-xl-3" data-aos="fade-up">
                             <div class="card">
                                 <button type="button" class="btn p-0 tampilkan" data-nama="<?= $team['nama']; ?>" data-pss="<?= $team['posisi']; ?>" data-img="<?= $team['img']; ?>" data-desc="<?= $team['deskripsi']; ?>" data-toggle="modal" data-target="#exampleModalCenter">
                                     <img src="<?= base_url('assets/') ?>/images/team/<?= $team['img']; ?>" alt="" class="card-img-top">

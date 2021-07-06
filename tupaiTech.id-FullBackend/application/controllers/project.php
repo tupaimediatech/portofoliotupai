@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Project extends CI_Controller {
+class Project extends CI_Controller
+{
 
 	public function index()
 	{
@@ -15,5 +16,4 @@ class Project extends CI_Controller {
 
 		$this->load->view('base/home', $data);
 	}
-
 }

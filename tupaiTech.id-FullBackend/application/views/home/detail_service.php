@@ -3,7 +3,7 @@
             <div class="header-section">
                 <div class="container">
                     <h1 class="section-title" data-aos="slide-up">What we do?</h1>
-                    <div class="section-info" data-aos="zoom-out-up">
+                    <div class="section-info" data-aos="fade-up">
                         <p><Span>Tupai Tech</Span> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
                             dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit
                             amet. We at Tupai Tech specialize in the provision of the following IT services to help your

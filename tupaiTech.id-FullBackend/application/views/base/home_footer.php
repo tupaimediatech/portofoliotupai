@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-4 company">
         <div class="row pl-3">
-          <img src="<?= base_url('assets/'); ?>assets/img/love-footer.png" class="company-img" alt="">
+          <img src="<?= base_url('assets/'); ?>assets/img/logo-tupai.png" width="50" height="50" class="company-img" alt="">
           <h1 class="company-title pl-3">LOGO <br> TUPAI TECH</h1>
         </div>
         <p class="company-info">Lorem ipsum dolor sit amet Lorem ipsum Lorem ipsum dolor sit amet</p>
@@ -75,6 +75,23 @@
 
 <!-- main js -->
 <script src="<?= base_url('assets/'); ?>assets/js/main.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.button-images').click(function() {
+      const value = $(this).attr('data-filter');
+      if (value == 'all') {
+        $('.box').show();
+      } else {
+        $('.box').not('.' + value).hide();
+        $('.box').filter('.' + value).show();
+      }
+    })
+    // add active class
+    $('.button-images').click(function() {
+      $(this).addClass('active').siblings().removeClass('active');
+    })
+  })
+</script>
 </body>
 
 </html>

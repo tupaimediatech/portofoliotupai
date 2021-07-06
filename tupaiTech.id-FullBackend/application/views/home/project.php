@@ -17,12 +17,12 @@
 				<div class="projects">
 					<div class="row">
 						<?php foreach ($projects as $pro) : ?>
-							<div class="box col-12 col-md-4 <?= $pro['link']; ?>">
+							<div class="box col-12 col-md-6 col-lg-4 <?= $pro['link']; ?>">
 								<button class="btn p-0 tampilkan" data-nama="<?= $pro['nama_project']; ?>" data-desc="<?= $pro['deskripsi']; ?>" data-img="<?= $pro['img']; ?>" data-serv="<?= $pro['nama_service']; ?>" data-toggle="modal" data-target="#projectDetail">
 									<img src="<?= base_url() ?>assets/images/project/<?= $pro['img']; ?>" alt="">
 									<div class="info">
-										<h6><?= $pro['nama_project']; ?></h6>
-										<h4><?= $pro['deskripsi']; ?></h4>
+										<p class="project-client"><?= $pro['nama_project']; ?></p>
+										<p class="project-title"><?= $pro['deskripsi']; ?></p>
 									</div>
 								</button>
 							</div>

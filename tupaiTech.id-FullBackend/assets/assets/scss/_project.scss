@@ -69,20 +69,30 @@
 		margin-bottom: 40px;
 		.box {
 			margin-bottom: 30px;
-			img {
-				max-width: 100%;
-			}
-			.info {
-				position: absolute;
-				bottom: 0;
-				left: 20;
-				width: 91%;
-				z-index: 2;
-				background-color: #452d3b;
-				color: #ffffff;
-				opacity: 0;
-				text-align: left;
-				padding: 15px 22px;
+
+			.tampilkan {
+				position: relative;
+				img {
+					max-width: 100%;
+				}
+				.info {
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					z-index: 2;
+					background-color: #452d3b;
+					color: #ffffff;
+					opacity: 0;
+					text-align: left;
+					padding: 15px 22px;
+
+					.project-title {
+						font-size: 18px;
+					}
+					.project-client {
+						font-size: 14px;
+					}
+				}
 			}
 		}
 		.box:hover {

@@ -3,12 +3,10 @@
 	background-color: map-get($map: $colors, $key: "seven");
 	background-repeat: no-repeat;
 	background-size: 100% 80%;
-
 	min-height: 505px;
-
 	padding-top: 100px;
-	padding-bottom: 100px;
-
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 	.title {
 		font-style: normal;
 		font-weight: 600;

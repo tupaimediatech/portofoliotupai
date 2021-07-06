@@ -50,10 +50,10 @@
                         <a class="nav-link" href="<?= base_url('home'); ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item <?= $this->uri->segment(1) == 'about_us' ? 'active' : '' ?>">
-                        <a class="nav-link" href="<?= $this->uri->segment(1) == 'home' ? '#aboutUs' :  base_url('home#aboutUs') ?>">About Us</a>
+                        <a class="nav-link <?= $this->uri->segment(1) == 'home' ? 'scroll-to' : '' ?>" href="<?= $this->uri->segment(1) == 'home' ? '#aboutUs' :  base_url('home#aboutUs') ?>">About Us</a>
                     </li>
                     <li class="nav-item <?= $this->uri->segment(1) == 'service' ? 'active' : '' ?>">
-                        <a class="nav-link " href="<?= $this->uri->segment(1) == 'home' ? '#services' :  base_url('home#services') ?>">IT Services</a>
+                        <a class="nav-link <?= $this->uri->segment(1) == 'home' ? 'scroll-to' : '' ?>" href="<?= $this->uri->segment(1) == 'home' ? '#services' :  base_url('home#services') ?>">IT Services</a>
                     </li>
                     <li class="nav-item <?= $this->uri->segment(1) == 'project' ? 'active' : '' ?>">
                         <a class="nav-link" href="<?= base_url('project'); ?>">Projects</a>
